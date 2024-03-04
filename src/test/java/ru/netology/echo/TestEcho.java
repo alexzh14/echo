@@ -16,7 +16,7 @@ public class TestEcho {
                 .post("/post")
                 .then()
                 .statusCode(200)
-                .body("data", org.hamcrest.Matchers.equalTo("Should go and find the answer by yourself"));
+                .body("data", org.hamcrest.Matchers.equalTo("Broke the test"));
 
 
     }
